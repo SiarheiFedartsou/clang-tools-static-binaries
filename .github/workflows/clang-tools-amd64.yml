@@ -20,6 +20,9 @@ jobs:
           - os: windows
             arch: arm64
         include:
+          - os: macosx
+            arch: arm64
+            optzzz: 42
           - clang-version: 3.9
             release: llvm-project-3.9.1
           - clang-version: 4
